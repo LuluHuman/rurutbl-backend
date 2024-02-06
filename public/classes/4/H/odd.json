@@ -1,0 +1,52 @@
+{
+    "Monday": {
+        "0800": "CCE",
+        "0900": "Elect-AM/D&1T/POA",
+        "1000": "PE",
+        "1100": "Recess",
+        "1140": "Comb Hum",
+        "1240": "Math",
+        "1320": "Break",
+        "1340": "Eng",
+        "1500": null,
+        "1420": "MTL"
+    },
+    "Tuesday": {
+        "0800": "Math",
+        "0900": "Elect-AM/D&1T/POA",
+        "1000": "Recess",
+        "1040": "Eng",
+        "1120": "{SciElec}",
+        "1220": "Social Studies",
+        "1320": "Chemestry",
+        "1420": null
+    },
+    "Wednesday": {
+        "0840": "CCE",
+        "0940": "Recess",
+        "1020": "Eng",
+        "1120": "PE",
+        "1220": "MTL",
+        "1320": "Break",
+        "1340": "Math",
+        "1440": null
+    },
+    "Thursday": {
+        "0800": "CCE",
+        "0840": "Math",
+        "0940": "Chemestry",
+        "1040": "Social Studies",
+        "1120": "Recess",
+        "1200": "Comb Hum",
+        "1240": "{SciElec}",
+        "1340": "MTL",
+        "1420": null
+    },
+    "Friday": {
+        "0840": "Elect-AM/D&T/POA",
+        "0940": "Recess",
+        "1020": "MTL",
+        "1120": "Eng",
+        "1220": null
+    }
+}

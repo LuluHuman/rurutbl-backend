@@ -1,0 +1,38 @@
+404
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="/status-404/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Error 404 Page not found</title>
+</head>
+
+<body>
+    <p>hejejejej</p>
+    <div>
+        <p>$this_page does not exist 💀</p>
+        <img src="/status-404/404senko.png" alt="404Senko">
+        <span>Dont't worry helpful fox Senko is here, she will pamper you back where you came from.</span>
+        <span><a href="/">Home</a></span>
+        <p>If you think something is wrong:</p>
+        <a target="_blank" href="https://github.com/rurutbl/rurutbl.luluhoy.tech/issues">Report Issue</a>
+        <a target="_blank" href="https://github.com/rurutbl/rurutbl.github.io/commits/main/">Check commits if page
+            was removed</a>
+    </div>
+
+    <script>
+        const pathname = window.location.pathname
+        const element = document.querySelector("body > div > p")
+        if (pathname.includes("/status-404")) {
+            element.innerText = "/status-404 exists but why are you here 💀"
+        } else {
+            element.innerText = element.innerText.replace("$this_page", pathname)
+        }
+    </script>
+</body>
+
+</html>
